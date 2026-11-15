@@ -1,0 +1,2 @@
+/* 互換用。トークン本体は home-tokens.css。head から直接 link する */
+@import url("./home-tokens.css");

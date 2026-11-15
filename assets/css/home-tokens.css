@@ -1,0 +1,79 @@
+/* Hallmark · genre: modern-minimal · macrostructure: Marquee Hero
+ * theme: Questly brand refresh · accent #4F7A00 · mark lime #C6F24E
+ * tone: utilitarian · audience: delivery drivers · use: App Store + legal
+ * logo: Space Grotesk Bold · UI: Inter (+ Hiragino for JA)
+ */
+
+:root {
+  --color-paper: oklch(97.2% 0.008 150);
+  --color-paper-clear: oklch(97.2% 0.008 150 / 0);
+  --color-paper-2: oklch(95.5% 0.01 150);
+  --color-paper-3: oklch(92% 0.02 152);
+  --color-panel: #111413;
+  --color-panel-2: #1a1f1c;
+  --color-slot: #343c38;
+  --color-rule: oklch(84% 0.012 150);
+  --color-rule-2: oklch(62% 0.015 150);
+  --color-muted: oklch(62% 0.015 150);
+  --color-neutral: oklch(48% 0.02 150);
+  --color-ink-2: oklch(42% 0.02 150);
+  --color-ink: #141a16;
+  --color-accent: #4f7a00;
+  --color-accent-ink: #3d5e00;
+  --color-accent-mark: #c6f24e;
+  --color-focus: #4f7a00;
+  --color-on-accent: #ffffff;
+  --color-band: #3d5e00;
+  --color-earn: #c9d0cc;
+
+  --font-logo: "Space Grotesk", Inter, "Hiragino Sans", sans-serif;
+  --font-display: Inter, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  --font-body: Inter, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  --font-label: Inter, "Hiragino Sans", sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1.0625rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5rem;
+  --text-xl: 1.875rem;
+  --text-2xl: 2.25rem;
+  --text-display: clamp(2.5rem, 10vw, 4.25rem);
+  --text-display-s: clamp(1.75rem, 2.5vw + 1rem, 2.75rem);
+  --text-mast: clamp(2.25rem, 5vw, 3.75rem);
+
+  --tracking-display: -0.02em;
+  --tracking-logo: -0.03em;
+  --tracking-label: 0.02em;
+
+  --lh-tight: 1.15;
+  --lh-snug: 1.35;
+  --lh-relaxed: 1.8;
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+
+  --rule-hair: 1px;
+  --rule-focus: 2px;
+  --radius-none: 0;
+  --radius-pill: 9999px;
+  --radius-card: 1rem;
+  --page-gutter: clamp(1rem, 4vw, 2.5rem);
+  --measure: 62ch;
+  --z-skip: 10;
+  --z-sticky-nav: 300;
+}
